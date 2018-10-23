@@ -25,6 +25,7 @@ export class ApiService {
     //test
     return this.http.get("https://apissj-api.azurewebsites.net/books/"+Clinicname).map((res)=>res.json());
    
+    
  
     
      console.log(Clinicname)  
