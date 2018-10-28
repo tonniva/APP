@@ -23,7 +23,7 @@ export class SearchComponent implements OnInit {
   private ClinicName : string;  // เราป้อนค่า id = 5 ที่ตัวแปรนี้
   private  hostelDetail : any;
 
-private Clinicnames:string;
+public Clinicnames:string;
 
 private ResponseResult:ClsResponseAPI;
 

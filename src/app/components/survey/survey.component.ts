@@ -10,7 +10,7 @@ export class SurveyComponent implements OnInit {
 @Input() message : string ;
 
 
-private ResultSearch:ClsResponseAPI;
+public ResultSearch:ClsResponseAPI;
 
   constructor(private DataService:DataService) { }
 

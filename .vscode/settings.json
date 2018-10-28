@@ -9,5 +9,6 @@
     "bin": true
   },
   "debug.internalConsoleOptions": "neverOpen",
-  "appService.deploySubpath": "src"
+  "appService.deploySubpath": "src",
+  "git.ignoreLimitWarning": true
 }
